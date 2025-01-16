@@ -1,6 +1,9 @@
 // src/app/components/Header.tsx
 import Link from "next/link";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWallet } from "@fortawesome/free-solid-svg-icons/faWallet";
+import { faGear } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
@@ -14,7 +17,7 @@ export default function Header() {
             height={50}
             priority
           />
-          <Link href="/">Home</Link>
+          <Link href="/">XRPL Wallet 1.0</Link>
         </div>
         <div>
             <Image src="/setting.png"
